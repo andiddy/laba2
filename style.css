@@ -1,0 +1,40 @@
+body {
+    font-family: verdana;
+    background-color: #45b099;
+    color: #333;
+    margin: 0px;
+    padding: 20px;
+}
+h1 {
+    color: #FFFFFF;
+}
+h2 {
+    color: #336699;
+}
+p {
+    line-height: 2;
+}
+.content {
+    display: flex;
+    background: #456969;
+    margin: 20px;
+    border-radius: 50px;
+    padding: 20px;
+}
+.content-left {
+    flex: 3;
+    background: #ffccdd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+.content-right {
+    flex: 2;
+    background: #ffccdd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
